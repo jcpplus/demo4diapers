@@ -344,12 +344,10 @@ footer a, footer span{
 	font-size:1.3em;
 	line-height:18px;
 	font-family:'quidsiiconfont';}
-.container h1,
 .content h1{
 	position:relative;
 	padding:10px;
 	font-size:14px;}
-.container h1 em,
 .content h1 em {
 	margin-left:3px;
 	font-weight:normal;}
@@ -438,12 +436,12 @@ footer a, footer span{
 .saleList a{padding-left:1.5em;}
 /* product list */
 .product-list{overflow:hidden;}
-.product-list li ,#product-list .colContainer{padding:10px;position:relative;}
+.product-list li {padding:10px;position:relative;}
 .product-list a{display:block;}
 .product-list .cover{text-align:center;}
 .product-list .cover i, .product-list .infos i{height:100px;}
 
-/*.product-list img{max-width:100px;max-height:100px;}*/
+.product-list img{max-width:100px;max-height:100px;}
 .product-list .infos{padding:0 10px;}
 .product-list .infos .titleInfo, .product-list .infos .tips{display:block;}
 .product-list .infos strong{font-size:14px;}
@@ -451,8 +449,8 @@ footer a, footer span{
 
 #editList li{cursor:pointer;}
 
-.gridView li{float:left;padding-left:0;padding-right:0;border-left:1px solid #ECECEC;margin-right:-1px;min-height:262px;}
-.gridView li:nth-child(odd),#product-list .colContainer:nth-child(odd){border-right:1px solid #ECECEC;margin-left:-1px;}
+.gridView li,.colContainer{float:left;padding-left:0;padding-right:0;border-left:1px solid #ECECEC;margin-right:-1px;min-height:262px;}
+.gridView li:nth-child(odd),.colContainer{border-right:1px solid #ECECEC;margin-left:-1px;}
 
 .listView .cover{float:left;width:100px;}
 .listView .infos{margin-left:100px;padding-left:15px;min-height:100px;width:50%;}

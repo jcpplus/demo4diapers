@@ -66,8 +66,8 @@ footer span.current {
 	box-shadow:1px 1px 1px #CCC;
 }
 .content h1 {color:#676767;background:#EDEFEF;border-bottom:1px solid #66b2db;}
-.container h1 em,.content h1 em {color:#6A686B;}
-.container .page-title,.content h1.page-title {color:#2098CE;}
+.content h1 em {color:#6A686B;}
+.content h1.page-title {color:#2098CE;}
 .content h1 a.pageBack {color:#0098CE;}
 
 /* home page */
@@ -322,12 +322,6 @@ input.unhappy {border-color:#FF6700 #FF6700 #FF8936 #FF8936;}
 .moreOption dd a {color:#1aa5ce;}
 .moreOptionBox span{background:#5ab9cf;color:#FFF;}
 .infoList .moreOptionWrap{border-top:1px solid #1aa5ce;}
-
-/* Add few styles*/
-.product-list section{
-	padding: 10px 0 20px 0;
-}
-
 
 /* Responsive for Demo */
 @media screen and (max-width: 320px) {

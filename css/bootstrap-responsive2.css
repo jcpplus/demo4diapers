@@ -458,7 +458,10 @@
   }
 }
 
+  
+}
 @media (min-width: 768px) and (max-width: 979px) {
+  body{background: #cf0; }
   .row {
     margin-left: -20px;
     *zoom: 1;
@@ -798,11 +801,33 @@
     width: 28px;
   }
 }
+/* =481767*/
+@media (min-width:481px) and (max-width: 767px) {
+ 
+   h1{
+    margin: 0;font-size: 18px;
+  }
 
-@media (max-width: 767px) {
-  body {
-    padding-right: 20px;
-    padding-left: 20px;
+}
+ /* .span2{
+    width:160px!important;
+  }*/
+  .row-fluid .span2{
+    width:100%;
+  }
+  [class*="span"],
+  .row-fluid [class*="span"]:first-child,
+  .row-fluid [class*="span"] {
+    margin-left: 0;
+  }
+  .row-fluid [class*="span"] {
+  display: block;
+  float: left;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   }
   .navbar-fixed-top,
   .navbar-fixed-bottom,
@@ -835,17 +860,6 @@
   .thumbnails > li {
     float: none;
     margin-left: 0;
-  }
-  [class*="span"],
-  .uneditable-input[class*="span"],
-  .row-fluid [class*="span"] {
-    display: block;
-    float: none;
-    width: 100%;
-    margin-left: 0;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
   }
   .span12,
   .row-fluid .span12 {
@@ -896,8 +910,30 @@
     top: 20px;
   }
 }
+/* =321480 
+@media (min-width:321px) and (max-width: 480px) {
 
-@media (max-width: 480px) {
+}*/
+ /* .span2{
+    width:160px!important;
+  }*/
+  .row-fluid .span2{
+    width:100%;
+  }
+  [class*="span"],
+  .row-fluid [class*="span"]:first-child,
+  .row-fluid [class*="span"] {
+    margin-left: 0;
+  }
+  .row-fluid [class*="span"] {
+  display: block;
+  float: left;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  }
   .nav-collapse {
     -webkit-transform: translate3d(0, 0, 0);
   }
@@ -947,6 +983,34 @@
   .carousel-caption {
     position: static;
   }
+}
+/* =320*/
+@media screen and (max-width: 320px){
+
+  h1{
+    margin: 0;font-size: 18px;
+  }
+ 
+}
+ /* .span2{
+    width:150px!important;
+  }*/
+  .row-fluid .span2{
+    width:100%;
+  }
+  [class*="span"],
+  .row-fluid [class*="span"]:first-child,
+  .row-fluid [class*="span"] {
+    margin-left: 0;
+  }
+  .row-fluid [class*="span"] {
+  display: block;
+  float: left;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @media (max-width: 979px) {

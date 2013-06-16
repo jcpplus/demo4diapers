@@ -1,0 +1,20 @@
+var currentSite={
+		id:"diapers",
+		name:"Diapers",
+		domain:"diapers.com",
+		cdnServers:"c1.diapers.com,c2.diapers.com,c3.diapers.com,c4.diapers.com",
+		imgs:{
+			iphonebar:"/images/iphonebar_diapers_mobile.jpg",
+			iphonebar_appstore:"/images/iphonebar_appstore_diapers_mobile.png",
+			androidbar:"/images/androidbar_diapers_mobile.jpg",
+			androidbar_appstore:"/images/android_appstore_diapers_mobile.png"
+		},
+		applink:{
+			iphone:"http://click.linksynergy.com/fs-bin/stat?id=YaoGEdYn7*c&offerid=146261&type=3&subid=0&tmpid=1826&RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fdiapers.com%252Fid422304830%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30&u1=WebPrompt",
+			android:"https://play.google.com/store/apps/details?id=com.quidsi.diapers&referrer=utm_source%3Dwebprompt",
+		},
+		ga:{
+			account:"UA-33188438-1",
+			siteTag:"MWD"
+		}
+};

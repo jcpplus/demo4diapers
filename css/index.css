@@ -1,0 +1,119 @@
+/*
+*
+* styles for index.html
+*
+*/
+.colContainer{
+	float: left;
+	border-top: 1px solid #ECECEC;
+}
+/*Navbar*/
+.switchViewM1{
+	border: 1px solid #999;
+	background: #CED3D6;
+	
+}
+.switchViewM1 .listIcon,
+.switchViewM1 .girdIcon{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+.switchViewM1 .listIcon{
+	background: url(../img/glyphicons-halflings.png) no-repeat -260px 0; 
+}
+.switchViewM1 .girdIcon{
+	background: url(../img/glyphicons-halflings.png) no-repeat -213px 0; 
+}
+#product-list .colContainer{
+	float:left;padding-left:0;padding-right:0;border-left:1px solid #ECECEC;margin-right:-1px;height: 278px;
+}
+#product-list .listView{
+	width:100%;
+	padding:2%;
+	height: auto;
+}
+#logo {
+	margin: 0;
+	font-size: 18px;
+}
+.container .page-title{
+	margin: 0;
+	padding: 0 10px;
+}
+/* Responsive for index.html */
+
+@media screen and (max-width: 320px) {
+     
+    .colContainer{
+		width:40%;
+		border-top: 1px solid #eee;
+		height: auto;
+		overflow: hidden;
+	}
+     /*
+	* styles.for.Demo.html
+	*/
+	.row-fluid .span2{
+		width:49.893617%!important;
+		float: left!important;
+	}
+}
+@media (min-width: 321px) and (max-width: 480px) {
+     
+    .colContainer{
+		width:25%;
+		overflow: hidden;
+	}
+     /*
+	* styles.for.Demo.html
+	*/
+	.row-fluid .span2{
+		width:32.893617%!important;
+		float: left!important;
+	}
+}
+@media (min-width: 481px) and (max-width: 768px) {
+     
+    .colContainer{
+		width:20%;
+	}
+	/*
+	* styles.for.Demo.html
+	*/
+	.row-fluid .span2{
+		width:24.364641%!important;
+		float: left!important;
+	}
+     
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+     
+    .colContainer{
+		width:17%;
+		overflow: hidden;
+	}
+     
+}
+@media screen and (min-width: 1024px) {
+
+    .colContainer{
+		width:14.66%;
+		overflow: hidden;
+	}
+}
+
+
+/*
+*
+* styles.for.Demo.html
+*
+*/
+@media (min-width: 769px) and (max-width: 1024px) {
+
+	.row-fluid .span2{
+		width:17.364641%!important;
+	}
+     
+}
